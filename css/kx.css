@@ -21,11 +21,11 @@
 
 
 .four{
-    height: 150px;
+    height: auto;
     margin-top: 30px;
 }
 .four .box {
-    
+    overflow: hidden;
 }
 .yunao h3,.rmtj h3{
     background: url('../images/zhuangshitiao.png') no-repeat 0 center;
@@ -49,5 +49,9 @@
     .yunao .bg{
         margin-top: 20px;
         height: 300px;
+    }
+    .yunao h3{
+        background: transparent;
+        // background-size: contain;
     }
 }
