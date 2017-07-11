@@ -57,9 +57,33 @@ h3,
     color: #1872d0;
 }
 
+.tab-hot .active:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 2px;
+    background: #1872d0;
+}
+
+.box-h {
+    background: #f8f8f8;
+}
+
+.gomore {
+    width: 202px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #1872d0;
+    color: #1872d0;
+    margin: 0 auto;
+}
+
 .tab-item {
     width: 50%;
     padding: 0 70px;
+    position: relative;
     text-align: right;
 }
 
@@ -79,5 +103,14 @@ h3,
     .bg {
         margin-top: 40px;
         height: 190px;
+    }
+    .tab-hot {
+        margin: 0;
+        width: 100%;
+    }
+    .tab-item {
+        padding: 0;
+        width: 50%;
+        text-align: center;
     }
 }
