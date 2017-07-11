@@ -43,10 +43,24 @@ h3,
 .tab-hot {
     height: 68px;
     display: flex;
-    width: 54%;
+    width: 58%;
     margin: 40px auto 30px auto;
     align-items: center;
     position: relative;
+}
+
+.all-real {
+    margin-top: 34px;
+    background: url('../images/bckl.png') no-repeat;
+    background-size: 100% 100%;
+    height: 98px;
+}
+
+.text-top {
+    padding-top: 12px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
 }
 
 .title-top {
@@ -61,8 +75,9 @@ h3,
     content: '';
     position: absolute;
     bottom: 0;
-    width: 80px;
+    width: 63px;
     height: 2px;
+    left: 43%;
     background: #1872d0;
 }
 
@@ -77,14 +92,15 @@ h3,
     text-align: center;
     border: 1px solid #1872d0;
     color: #1872d0;
-    margin: 0 auto;
+    margin: 40px auto 28px auto;
 }
 
 .tab-item {
     width: 50%;
-    padding: 0 70px;
+    padding: 16px 70px;
     position: relative;
     text-align: right;
+    font-size: 24px;
 }
 
 .title-text {
@@ -93,6 +109,70 @@ h3,
 
 .mart2 {
     margin-bottom: 20px;
+}
+
+.type {
+    margin-top: 40xp;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 12px;
+    font-weight: 500;
+}
+
+.money {
+    padding-bottom: 38px;
+    color: #1872d0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.detail-hot {
+    height: 240px;
+    border-left: 1px solid #1872d0;
+    color: #000;
+    font-size: 16px;
+}
+
+.box-img {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hot-detaimg {
+    height: 90px;
+    width: auto;
+}
+
+.img-shoose {
+    padding-bottom: 16px;
+}
+
+.text-ca {
+    font-size: 18px;
+}
+
+.hot-detail-item {
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.text-choose-d {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.hot-detail-item span {
+    padding-right: 20px;
+}
+
+.mart4 {
+    margin-top: 40px;
+}
+
+.choose-g {
+    padding-top: 50px;
+    font-size: 24px;
 }
 
 @media (max-width: 768px) {
@@ -109,8 +189,15 @@ h3,
         width: 100%;
     }
     .tab-item {
-        padding: 0;
+        padding: 10px 0;
         width: 50%;
         text-align: center;
+    }
+    .tab-hot .active:after {
+        left: 27%;
+    }
+    .all-real {
+        height: auto;
+        padding-bottom: 12px;
     }
 }
