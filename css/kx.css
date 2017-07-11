@@ -22,6 +22,10 @@
     margin-top: 30px;
 }
 
+.rmtj {
+    margin-top: 30px;
+}
+
 h3,
 .rmtj h3 {
     background: url('../images/zhuangshitiao.png') no-repeat 0 center;
@@ -30,16 +34,41 @@ h3,
 }
 
 .bg {
-    margin-top: 20px;
-    height: 600px;
+    margin-top: 40px;
+    height: 560px;
     background: url('../images/yfwq.png') no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .tab-hot {
-    margin-top: 40px;
-    margin-bottom: 30px;
     height: 68px;
+    display: flex;
+    width: 54%;
+    margin: 40px auto 30px auto;
+    align-items: center;
+    position: relative;
+}
+
+.title-top {
+    font-size: 16px;
+}
+
+.tab-hot .active {
+    color: #1872d0;
+}
+
+.tab-item {
+    width: 50%;
+    padding: 0 70px;
+    text-align: right;
+}
+
+.title-text {
+    font-size: 14px;
+}
+
+.mart2 {
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -47,8 +76,8 @@ h3,
         width: 100%;
         height: 235px;
     }
-    .yunao .bg {
-        margin-top: 20px;
-        height: 96px;
+    .bg {
+        margin-top: 40px;
+        height: 190px;
     }
 }
