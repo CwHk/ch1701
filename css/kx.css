@@ -85,7 +85,7 @@ h3,
     bottom: 0;
     width: 63px;
     height: 2px;
-    left: 43%;
+    left: calc(50% - 31px);
     background: #1872d0;
 }
 
@@ -107,7 +107,8 @@ h3,
     width: 50%;
     padding: 16px 70px;
     position: relative;
-    text-align: right;
+    // text-align: right;
+    text-align: center;
     font-size: 24px;
 }
 
@@ -169,6 +170,7 @@ h3,
 .text-choose-d {
     font-size: 14px;
     padding-bottom: 4px;
+    text-align: left;
 }
 
 .hot-detail-item span {
@@ -177,6 +179,9 @@ h3,
 
 .mart4 {
     margin-top: 40px;
+    height: 172px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .choose-g {
@@ -184,6 +189,64 @@ h3,
     font-size: 24px;
 }
 
+
+
+.no_bar{
+    background: transparent;
+}
+.mart-6 .container,.mart-6 h3{
+    background: #fff
+}
+.mart-6 h3{
+    margin: 0;
+    height: 140px;
+    line-height: 140px;
+    background: #fff url(../images/zhuangshitiao.png) no-repeat 0 center; 
+    background-size: contain;
+}
+.mart-6 .container .row > [class*='col-']{
+    height: 400px;
+}
+
+.mart-dt .jfdt{
+    height: 710px;
+    background: url('../images/guoneijf.png') no-repeat;
+    background-size: 100% 100%;
+}
+.mart-dt .jfdt_detail{
+    background: #fff;
+    height: 242px;
+    position: relative;
+}
+.mart-dt .jfdt_detail>div{
+    position: absolute;
+    left: calc(50% - 250px);
+    top: -38px;
+    box-shadow: 0 0 10px 1px #bec2cf;
+}
+.mart-dt .no_margin{
+    background: #fff;
+}
+.mart-dt .container{
+    // height: 80px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.mart-dt .container > div[class*='col-']{
+    min-height: 80px;
+    vertical-align: middle;
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mart-dt .container b{
+    font-size: 20px;
+}
+
+footer{
+    background: #f8f8f8;
+}
 
 .footer_top{
     padding-top: 16px;
@@ -254,5 +317,18 @@ h3,
     .all-real {
         height: auto;
         padding-bottom: 12px;
+    }
+    .mart4 {
+        margin-top: 40px;
+        height: 172px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mart-6 h3{
+        margin: 0;
+        height: auto;
+        line-height: 33px;
+        padding: 30px 0;
+        background: #fff; 
     }
 }
