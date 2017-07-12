@@ -216,6 +216,19 @@ h3,
     height: 710px;
     background: url('../images/guoneijf.png') no-repeat;
     background-size: 100% 100%;
+    position: relative;
+}
+.mart-dt .jfdt .gnjd{
+    max-width: 160px;
+    position: absolute;
+    left: 10%;
+    top: 30px;
+}
+.mart-dt .jfdt .gwjd{
+    max-width: 160px;
+    position: absolute;
+    left: calc(10% + 180px);
+    top: 30px;
 }
 .mart-dt .jfdt_detail{
     background: #fff;
@@ -228,7 +241,20 @@ h3,
     top: -38px;
     box-shadow: 0 0 10px 1px #bec2cf;
 }
-.mart-dt .no_margin{
+.mart-dt .jfdt_detail>div b{
+    position: absolute;
+    left: 32px;
+    display: block;
+    font-size: 32px;
+    color: 1872d0;
+}
+.mart-dt .jfdt_detail>div .city{
+    top: 32px;
+}
+.mart-dt .jfdt_detail>div .city_feature{
+    top: 76px;
+}
+.mart-dt .no_margin{  
     background: #fff;
 }
 .mart-dt .container{
@@ -341,5 +367,9 @@ footer{
     }
     .mart-6 .container .row > .active{
         box-shadow: 0 0 10px 1px #bec2cf;
+    }
+    .mart-dt .jfdt_detail  img{
+        width: 100%;
+        display: block;
     }
 }

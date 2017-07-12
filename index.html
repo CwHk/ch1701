@@ -319,11 +319,39 @@
         </div>
         <div class="box-h mart-dt">
             <div class="jfdt">
-
+                <div class="col-xs-4 col-sm-4 gnjd">
+                    <select class="form-control" onchange="selectOnchang(this)">
+                        <option value="">国内服务器节点</option>
+                        <option value="黑龙江">黑龙江</option>
+                        <option value="辽宁">辽宁</option>
+                        <option value="浙江">浙江</option>
+                        <option value="成都">成都</option>
+                        <option value="佛山">佛山</option>
+                        <option value="广州">广州</option>
+                        <option value="汕尾">汕尾</option>
+                        <option value="台湾">台湾</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-sm-4 gwjd">
+                    <select class="form-control" onchange="selectOnchang(this)">
+                        <option value="">国外服务器节点</option>
+                        <option value="美国">美国</option>
+                        <option value="德国">德国</option>
+                        <option value="日本">日本</option>
+                        <option value="菲律宾">菲律宾</option>
+                        <option value="泰国">泰国</option>
+                        <option value="新加坡">新加坡</option>
+                        <option value="印度尼西亚">印度尼西亚</option>
+                    </select>
+                </div>
             </div>
             <div class="jfdt_detail">
                 <div>
-                    <img src="images/jfdetail_3_03.png">
+                    <div style="position: relative;">
+                        <img src="images/jfdetail_3_03.png">
+                        <b class="city">佛山</b>
+                        <b class="city_feature">高仿双线</b>
+                    </div>
                 </div>
             </div>
             <div class="no_margin">
@@ -402,6 +430,12 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/kx.js"></script>
-
+<script type="text/javascript">
+    function selectOnchang(obj){
+        console.log(obj.selectedIndex);
+        console.log(obj.value);
+        $('.city').html(obj.value);
+    }
+</script>
 
 </html>
