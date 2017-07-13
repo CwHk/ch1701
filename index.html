@@ -303,8 +303,9 @@
                         <div><img src="images/jz6-1.png"></div>
                         <p class='title-top'>超低延时、秒级播放、实时录制在线AR/3D支持、4G播放强化等直播能力</p>
                         <p class="title-text runmar">直播加速</p>
+                        <div class="more"><a href="javascript:void(0)">了解详情</a></div>
                     </div>
-                    <div class="col-sm-4 col-xs-6 text-center active">
+                    <div class="col-sm-4 col-xs-6 text-center">
                         <div><img src="images/jz6-2.png"></div>
                         <p class='title-top'>支持视频播放、拖拽、统计安全、多线路回源等一站式视频点播服务</p>
                         <p class="title-text runmar">点播加速</p>
@@ -314,21 +315,25 @@
                         <div><img src="images/jz6-3.png"></div>
                         <p class='title-top'>支持自定义多种缓存策略、100%个人你就盗链的网页加速服务</p>
                         <p class="title-text runmar">网页加速</p>
+                        <div class="more"><a href="javascript:void(0)">了解详情</a></div>
                     </div>
                     <div class="col-sm-4 col-xs-6 text-center">
                         <div><img src="images/jz6-4.png"></div>
                         <p class='title-top'>200+国内外优质节点20000+动态节点全网分发，随时随地高速下载</p>
                         <p class="title-text runmar">下载加速</p>
+                        <div class="more"><a href="javascript:void(0)">了解详情</a></div>
                     </div>
                     <div class="col-sm-4 col-xs-6 text-center">
                         <div><img src="images/jz6-5.png"></div>
                         <p class='title-top'>升级体验数据，50%+的P2P分享率支持直播、点播、定制化服务支持WEB/APP/PTT平台</p>
                         <p class="title-text runmar">p2p加速</p>
+                        <div class="more"><a href="javascript:void(0)">了解详情</a></div>
                     </div>
                     <div class="col-sm-4 col-xs-6 text-center">
                         <div><img src="images/jz6-6.png"></div>
                         <p class='title-top'>提供直播和点播播放引擎直播推流SDK美颜功能，支持弱网自适应码率等流媒体播放解决方案</p>
                         <p class="title-text runmar">流媒体引擎</p>
+                        <div class="more"><a href="javascript:void(0)">了解详情</a></div>
                     </div>
                 </div>
             </div>
@@ -337,7 +342,7 @@
         <div class="box-h mart-dt">
             <div class="jfdt">
                 <div class="col-xs-4 col-sm-4 gnjd">
-                    <select class="form-control" onchange="selectOnchang(this)">
+                    <select class="form-control" onchange="selectGuonei(this)">
                         <option value="">国内服务器节点</option>
                         <option value="黑龙江">黑龙江</option>
                         <option value="辽宁">辽宁</option>
@@ -350,7 +355,7 @@
                     </select>
                 </div>
                 <div class="col-xs-4 col-sm-4 gwjd">
-                    <select class="form-control" onchange="selectOnchang(this)">
+                    <select class="form-control" onchange="selectGuowai(this)">
                         <option value="">国外服务器节点</option>
                         <option value="美国">美国</option>
                         <option value="德国">德国</option>
@@ -459,7 +464,12 @@
 <script src="js/swiper.min.js"></script>
 <script src="js/kx.js"></script>
 <script type="text/javascript">
-    function selectOnchang(obj) {
+    function selectGuonei(obj) {
+        console.log(obj.selectedIndex);
+        console.log(obj.value);
+        $('.city').html(obj.value);
+    }
+    function selectGuowai(obj) {
         console.log(obj.selectedIndex);
         console.log(obj.value);
         $('.city').html(obj.value);
