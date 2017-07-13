@@ -35,7 +35,7 @@ header .container {
     height: 32px;
     cursor: pointer;
     float: right;
-    background: #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     color: #007aff;
     font-size: 16px;
@@ -43,6 +43,15 @@ header .container {
     text-align: center;
     margin-top: 22px;
     margin-right: 30px
+}
+.login a,.regiser a{
+    text-decoration: none;
+}
+.login:hover{
+    background: #fff;
+}
+.regiser:hover{
+    background: #fff;
 }
 
 .regiser {
