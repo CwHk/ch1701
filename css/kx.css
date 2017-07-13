@@ -431,6 +431,39 @@ footer {
     justify-content: center;
 }
 
+.fix_right{
+    width: 50px;
+    height: 174px;
+    position: fixed;
+    top: calc(50% - 87px);
+    right: 0px;
+}
+.fix_right > div{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+}
+
+.fix_right .ybl_qq{
+    animation: tiaodong 0.5s linear 0s infinite alternate;
+    -webkit-animation: tiaodong 0.5s linear 0s infinite alternate;
+}
+@keyframes tiaodong{
+    // 0% {transform: scale(1.4,1.4);}
+    // 10% {transform: scale(1,1);}
+    // 25% {transform: scale(1.2,1.2);}
+    // 50% {transform: scale(1,1);}
+    // 70% {transform: scale(1.2,1.2);}
+    // 100% {transform: scale(1,1);}
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.2,1.2);}
+    100% {transform: scale(1,1);}
+}
+
+.fix_right .ybl_wx{
+    margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
     .boxs-num .type {
         margin-top: 40px;
