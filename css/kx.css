@@ -437,6 +437,7 @@ footer {
     position: fixed;
     top: calc(50% - 87px);
     right: 0px;
+    z-index: 999;
 }
 .fix_right > div{
     width: 50px;
