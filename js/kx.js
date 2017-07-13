@@ -12,10 +12,10 @@ $(function() {
 	// 	alert(obj.selectedIndex);
 	// }  
 	$('.gnjd').mouseover(function(){
-		$('.jfdt').css("background-image","url(../images/guoneijf.png)");
+		$('.jfdt').css("background-image","url(images/guoneijf.png)");
 	});
 	$('.gwjd').mouseover(function(){
-		$('.jfdt').css("background-image","url(../images/guowaijf.png)");
+		$('.jfdt').css("background-image","url(images/guowaijf.png)");
 	})
 
 })
